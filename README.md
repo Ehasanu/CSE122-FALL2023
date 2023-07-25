@@ -1,2 +1,8 @@
-# CSE122-FALL2023
-This is an OOP Lab
+Name: Ehasanul Haque
+
+ID: 22235103075
+
+Intake: 51
+
+Section: 02
+
