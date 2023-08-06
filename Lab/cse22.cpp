@@ -1,23 +1,17 @@
+
 #include<bits/stdc++.h>
 using namespace std;
+
 int main(){
-    int n;
-    cin>>n;
-     int sum=0;
-    while(n--){
-        int a,b,c;
-        cin>>a>>b>>c;
-
-        if(a==1&& b==1){
-            sum++;
-        }
-        else if(a==1&&c==1){
-            sum++;
-        }
-        else if(b==1&&c==1){
-            sum++;
-        }
-
+    int n;cin>>n;
+    while (n--)
+    {
+        string s; cin>> s;
+    int count=0;
+    count=s.size();
+    if(count<=10) cout<<s<<endl;
+    else cout<<s[0]<<count-2<<s[s.size()-1]<<endl;
     }
-    cout<<sum;
+
+    return 0;
 }
