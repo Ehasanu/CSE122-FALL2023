@@ -1,11 +1,16 @@
-*/#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
-    int w;cin>>w;
-    if(w>2 && w%2==0){
-        cout<<"YES";
+    int n;cin>>n;
+    while (n--)
+    {
+        string s; cin>> s;
+    int count=0;
+    count=s.size();
+    if(count<=10) cout<<s<<endl;
+    else cout<<s[0]<<count-2<<s[s.size()-1]<<endl;
     }
-    else cout<<"NO";
+
     return 0;
 }
