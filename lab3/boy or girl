@@ -15,7 +15,7 @@ int main()
     }
     else
     {
-        cout<<"CHAT WITH HIM"<<endl;
+        cout<<"IGNORE HIM"<<endl;
     }
     return 0;
 }
