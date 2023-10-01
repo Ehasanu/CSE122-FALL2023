@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,ministp;
+    cin>>n;
+    if(n%5==0)
+    {
+        ministp=n/5;
+    }
+    else
+    {
+        ministp=(n/5)+1;
+    }
+    cout<<ministp<<endl;
+
+
+
+    return 0;
+}
